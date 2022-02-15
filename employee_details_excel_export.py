@@ -14,6 +14,6 @@ for i in range(No):
 df=pd.DataFrame(data)
 print('creating excel filee')
 time.sleep(3)
-df.to_excel(excel_writer='heeee.xlsx')
+df.to_excel(excel_writer='employee.xlsx')
 print(df)
 print('excel file created')
