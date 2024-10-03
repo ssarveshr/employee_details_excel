@@ -12,7 +12,7 @@ for i in range(No):
     sal=int(input('\t enter salary : '))
     data[name]={'designation':des,'ID':id,'Salary':sal}
 df=pd.DataFrame(time)
-print('creating excel filee')
+print('creating excel filee sai')
 time.sleep(3)
 df.to_excel(excel_writer='employee.xlsx')
 print(df)
